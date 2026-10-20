@@ -1,0 +1,16 @@
+# Windows host
+host-windows/build/
+*.exe
+*.pdb
+
+# macOS client
+client-macos/.build/
+client-macos/.swiftpm/
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Captured streams from smoke tests
+*.hevc
