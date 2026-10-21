@@ -6,8 +6,9 @@ CAD / PCB work (SolidWorks, Altium), where a mostly-still screen with fine
 detail matters more than raw frame rate.
 
 > **Status: Milestone 1 (LAN prototype).** The protocol, fake host and headless
-> client are tested. The Windows host passes a syntax check but hasn't run on
-> real hardware yet, and the Swift client hasn't been compiled yet.
+> client are tested, and the Mac client runs against the fake host (video and
+> input). The Windows host passes a syntax check but hasn't run on real
+> hardware yet.
 > Use Parsec or Chrome Remote Desktop for anything you depend on.
 
 ## How it works

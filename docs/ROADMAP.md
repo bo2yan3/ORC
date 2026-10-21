@@ -2,12 +2,12 @@
 
 Each milestone ends with something you can actually use or measure.
 
-## M0 — Mac client against fake host  ⟵ start here
-- [ ] `python3 tools/fake_host.py` streams a test pattern on the Mac
-- [ ] `swift run orc-client 127.0.0.1 <token>` shows it
-- [ ] Clicks, scrolls and keys show up in the fake host's log
+## M0 — Mac client against fake host  ✅ done 2026-10-21
+- [x] `python3 tools/fake_host.py` streams a test pattern on the Mac
+- [x] `swift run orc-client 127.0.0.1 <token>` shows it
+- [x] Clicks, scrolls and keys show up in the fake host's log
 
-## M1 — Windows host on the home network
+## M1 — Windows host on the home network  ⟵ next
 - [ ] Host builds with vcpkg FFmpeg + NVENC
 - [ ] Desktop visible on the Mac, mouse and keyboard work
 - [ ] Measure: latency (PING/PONG round trip + frame age), bitrate, host CPU
